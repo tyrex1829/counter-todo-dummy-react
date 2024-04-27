@@ -1,12 +1,8 @@
 import './App.css'
-
-// we need to define state and component
-
 import { useState } from 'react';
 
-// this is my component
+// making todo app
 function App() {
-  // this is my state
   const [count, setCount] = useState(0);
   
   return (
